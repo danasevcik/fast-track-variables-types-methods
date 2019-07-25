@@ -88,8 +88,10 @@
 
 What other operators can you find? Try looking up more ruby number operators with Google and the Ruby docs!
 
+![](https://media.giphy.com/media/xhNV8qHHamimk/giphy-downsized.gif)
+
 ### Strings
-- In order to distinguish the _text we want to print_ from the _code that we want to execute_, we wrap our words in `"quote marks"`.
+- In order to distinguish the _text we want to print_ from the _code that we want to execute_, we wrap our words in `"quotation marks"`
 - In ruby, these _things in quotes_ are called **Strings**
 - What kinds of operations can we do on Strings?
 
@@ -98,14 +100,14 @@ What other operators can you find? Try looking up more ruby number operators wit
 ```ruby
 > "cat" + "dog"
 => "catdog"
-> "I'm going to the" + " store " + " to buy " + " some groceries " + "."
+> "Hi" + " my" + " name" + " is" + " Dana " + ":)"
 ```
 
 `.length` reports on the string's length:
 
 ```ruby
-> "abracadabra".length
-=> 11
+> "Scoobydoo".length
+=> 9
 > "Zap".length
 => 3
 > "Zap!".length
@@ -131,6 +133,7 @@ There are lots of other string methods! Browse the ruby docs to see more.
 
 - Arrays are lists of values
 - We use `[]` to create arrays
+- These are **Ordered Lists**
 
 
 ```ruby
@@ -169,10 +172,15 @@ There are lots of other string methods! Browse the ruby docs to see more.
 
 It'll pop up, so that's what it means when you see it.
 
+![](https://media.giphy.com/media/efF7tKGHvrUg8/giphy.gif)
+
 ## Methods
 
 - Typing everything that happens every time is annoying
 - DRY - don't repeat yourself!
+
+![](https://media.giphy.com/media/CpOhT5rJG1xdu/giphy.gif)
+
 - Instead of copying and pasting, lets write a method!
 - A _method_ in ruby is a set of instructions that we can run later (the word _function_ is used interchangeably)
 - we create a method with
@@ -228,14 +236,14 @@ def print_in_order(name_one, name_two, name_three, name_four)
   puts "Greetings, " + name_four
 end
 
-print_in_order("Hillary", "Jake", "Ann", "Rob")
+print_in_order("Dana", "Ryan", "Jordan", "Jelani")
 ```
 
 If we pass in the values in a different order, the values will be assigned to different names in the body of the method
 
 ```ruby
-print_in_order("Rob", "Hillary", "Jake", "Ann")
-print_in_order("Ann", "Rob", "Hillary", "Jake")
+print_in_order("Jelani", "Jordan", "Dana", "Ryan")
+print_in_order("Ryan", "Jelani", "Jordan", "Dana")
 ```
 
 ### Labs
