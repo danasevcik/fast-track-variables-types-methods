@@ -1,4 +1,5 @@
 # Ruby Variables, Types, and Methods
+### Flatiron School Fast Track Program
 
 ## SWBATS (Students Will Be Able To)
 - Assign names to values with variables
@@ -10,7 +11,6 @@
 - Recognize `nil` values
 - Define methods with `def`
 
-![](https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy-downsized.gif)
 
 ## Outline
 
@@ -24,6 +24,8 @@
 --
 35m Total
 ```
+
+![](https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy-downsized.gif)
 
 ## Variables
 
