@@ -15,9 +15,9 @@
 ## Outline
 
 ```text
- 5m Introduce Variables and Types
+ 5m Introduce variables and types
  5m Demonstrate number methods
- 5m Strings and String Methods
+ 5m Strings and string methods
  5m Arrays and array access
  5m Booleans and Nil
 10m Methods
@@ -30,27 +30,28 @@
 - When we use `""` to create a string, or mention a number like `5`, we are using it _literally_
 - We don't always know what the value is going to be when we are writing the program - we need a way to refer to data without using the literal value
 - We can use _variables_!
-- In ruby, we can assign a name to a value like `name="Rob"` or `number=6`
+- You've seen this before in math class!
+- In ruby, we can assign a name to a value like `name="Dana"` or `number=3`
 - Then, when we mention `name` or `number` later, we get the value out!
 - Demonstrate in REPL
 - Demonstrate in ruby files
 
 ```ruby
-> name = "Rob"
-=> "Rob"
+> name = "Dana"
+=> "Dana"
 > name
-=> "Rob"
-> number = 6
-=> 6
+=> "Dana"
+> number = 3
+=> 3
 > number
-6
+3
 ```
 
 
 ## Types: Strings, Numbers, Arrays
 
 - When we are programming, our values have different _types_
-- We want to do different operations depending on what kind of data something is
+- We want to perform different operations depending on what kind of data something is
 - If it's a number, we want to do "mathy" things with it
 - If it's text, we want to do "texty" things with it
 - We're going to focus on Numbers, Strings, and Arrays
